@@ -1,0 +1,99 @@
+/* *{
+    border:2px solid blue;
+} */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style-type: none;
+    width: 60%;
+    color: #B8C2CE;
+}
+
+.navbar-btn button{
+    background-color: #B8C2CE;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    padding: 10px 15px;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-image{
+    width: 80%;
+    position: relative;
+    padding: 70px 10px;
+}
+
+.home-image img{
+    position: absolute;
+    left:330px;
+    top:70px;
+}
+
+.home-image h1{
+    font-size: 110px;
+    width: 35%;
+}
+
+.home-image-card{
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+    width: 30%;
+}
+.home-sidebar{
+    width: 18%;
+}
+.home-card-1{
+    background-image: url("./images/beautiful-young-african-woman-sports-clothing-running-against-gray-background\ 1.png");
+    height: 200px;
+    position: relative;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+
+.home-card-1 p{
+    position: absolute;
+    bottom: 5px;
+    left:5px;
+    background-color: white;
+}
+.home-card-2{
+    background-image: url("./images/fastaccelerating-race-car-formula-one-racing-amid-sunset-generative-ai\ 1.png");
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+      background-repeat: no-repeat;
+}
+
+.home-card-2 p{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: white;
+}
+
+.home-sidebar button{
+        background-color: #B8C2CE;
+    color:white;
+    border-radius: 10px;
+    border:none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
